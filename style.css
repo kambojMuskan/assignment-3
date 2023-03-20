@@ -1,0 +1,77 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+header{
+  font-family: kavoon,Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: bold;  
+}
+header a{
+  color:beige;
+  text-decoration: none;
+  background-color:#68057C ; 
+  padding-left: 2.5rem;
+  padding-right:2.5rem;
+}
+header a:hover{
+  background-color:white;
+  color:black;
+  font-style:italic;
+  border-width:10px;
+  border-style:solid;
+  border-color:#68057C;
+  border-radius:2inch;
+  
+}
+
+header div{
+  background-image:linear-gradient(to right, purple,#DC7FEE) ;
+  padding:1.5rem;
+}
+
+.candy_name{
+  height:85vh;
+  display:grid;
+  grid-template-columns: 40% 60%;
+    background-image: url('img/img1.jpg'),url('img/img2.jpg'),url('img/img3.jpg');
+  background-position: center top, left center, right center;
+  background-size: cover, 50%, 50%;
+  
+
+}
+
+.candy_name div:nth-child(1){
+  display:flex;
+  align-items:center;
+  padding: 0px 15px;
+  background:#EFC6F7;
+  background:linear-gradient(to right, purple,#DC7FEE) ;
+  
+  
+}
+.candy_name div:nth-child(1) h1{
+  font-size:68px;
+  color:beige;
+  text-shadow:4px 2px 4px black;
+  letter-spacing: 1.75px;
+}
+#hoverEffect{
+  padding-left: 50%;
+  }
+
+#hoverEffect a{
+  background-color: black;
+  color:white;
+  padding:1.1rem;
+  margin:2rem;
+  align-items: center;
+}
+#hoverEffect a:hover{
+  background-color:red;
+  text-decoration:none;
+  }
+#hoverEffect svg{
+  display:flex;
+  flex-direction:row ;
+}
